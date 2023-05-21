@@ -1,9 +1,7 @@
-<script setup lang="ts">
-import { RouterView } from 'vue-router'
-</script>
-
 <template>
-  <div>Hello World</div>
-
-  <RouterView />
+  <Base />
 </template>
+
+<script setup lang="ts">
+import Base from '@/components/Base.vue'
+</script>
